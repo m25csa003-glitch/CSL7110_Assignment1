@@ -1,0 +1,6 @@
+#!/Users/akshatjain/Desktop/IIT_Jodhpur/Semester-2/ML_with_Big_Data/CSL7110_Assignment1/Spark_Code/venv_fix/bin/python3.11
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
